@@ -5,6 +5,6 @@ Notable files:
 - `cypress/support/commands.ts`
 - `src/App.spec.tsx`
 
-Running `App.spec.tsx` results in an infinite cycle of the test reloading after passing:
+Running `App.spec.tsx` (`npm run cypress`) results in an infinite cycle of the test reloading after passing:
 
 ![](reloading.gif?raw=true "GIF")
